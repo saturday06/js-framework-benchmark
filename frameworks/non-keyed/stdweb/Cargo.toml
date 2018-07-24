@@ -1,0 +1,8 @@
+[package]
+name = "js-framework-benchmark-stdweb"
+version = "1.0.0"
+authors = ["Isamu Mogi <isamu@leafytree.jp>"]
+
+[dependencies]
+rand = { version = "0", features = [ "stdweb" ] }
+stdweb = "0"
